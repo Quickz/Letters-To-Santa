@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour
     float someScale;
     public Rigidbody2D rb;
     Vector2 Movemnt;
+    public Grab g;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class PlayerMove : MonoBehaviour
             {
                 transform.localScale = new Vector2(-someScale, transform.localScale.y);
                 direction = -1;
+                g.changeBackWhereObject();
             }
      
           
@@ -35,8 +37,14 @@ public class PlayerMove : MonoBehaviour
             {
                 transform.localScale = new Vector2(someScale, transform.localScale.y);
                 direction = 1;
+                g.changeBackWhereObject();
             }
-        
+
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+        {
+            g.changeWhereObject();
+        }
+
     }
 
     private void FixedUpdate()

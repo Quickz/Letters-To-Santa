@@ -11,7 +11,8 @@ public class Grab : MonoBehaviour
     public Transform point;
     public Transform point2;
     public Transform HoldPoint;
-
+    public Transform DownPos;
+    public Transform NormalPos;
     // Update is called once per frame
     void Update()
     {
@@ -35,4 +36,13 @@ public class Grab : MonoBehaviour
             isGrabbed = false;
         }
     }
+
+    public void changeWhereObject() { 
+        point.transform.position = DownPos.transform.position;
+    }
+    public void changeBackWhereObject()
+    {
+        point.transform.position = NormalPos.transform.position;
+    }
 }
+
