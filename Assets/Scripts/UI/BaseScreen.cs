@@ -5,6 +5,8 @@ using UnityEngine;
 
 public abstract class BaseScreen : MonoBehaviour
 {
+    public bool IsOpen => window.activeSelf;
+
     [SerializeField]
     private GameObject window = null;
 
