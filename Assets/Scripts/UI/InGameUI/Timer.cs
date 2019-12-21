@@ -10,7 +10,7 @@ public class Timer : MonoBehaviour
     public FailedScreen fs;
     public Points pt;
     public Text tx;
-
+    // Update is called once per frame
     void Update()
     {
         TimeLeft -= Time.deltaTime;

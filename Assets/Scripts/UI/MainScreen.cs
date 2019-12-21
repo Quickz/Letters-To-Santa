@@ -34,16 +34,11 @@ public sealed class MainScreen : BaseScreen
 
     private void Start()
     {
-        startButton.onClick.AddListener(StartGameWithFade);
+        startButton.onClick.AddListener(StartGame);
         highscoresButton.onClick.AddListener(HighscoresScreen.Instance.OpenAlone);
         creditsButton.onClick.AddListener(CreditsScreen.Instance.OpenAlone);
 
         OpenAlone();
-    }
-
-    private void StartGameWithFade()
-    {
-        SceneTransition.Instance.RunWithFade(StartGame);
     }
 
     private void StartGame()
