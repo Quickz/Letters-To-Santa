@@ -8,6 +8,8 @@ public class PlayerMove : MonoBehaviour
     float _posX;
     float direction = 1;
     float someScale;
+    public Rigidbody2D rb;
+    Vector2 Movemnt;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,26 +21,26 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float Hmove = Input.GetAxis("Horizontal");
-        float Vmove = Input.GetAxis("Vertical");
-
-        Vector2 move = new Vector2(Hmove,Vmove);
-        
-        transform.Translate(move * speed * Time.deltaTime);
-
-            Debug.Log("Moving left - " + transform.position.x);
+        Movemnt.x = Input.GetAxisRaw("Horizontal");
+        Movemnt.y = Input.GetAxisRaw("Vertical");
+            
             if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
             {
                 transform.localScale = new Vector2(-someScale, transform.localScale.y);
                 direction = -1;
             }
      
-            Debug.Log("Moving right - " + transform.position.x);
+          
             if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
             {
                 transform.localScale = new Vector2(someScale, transform.localScale.y);
                 direction = 1;
             }
         
+    }
+
+    private void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + Movemnt * speed * Time.deltaTime);
     }
 }
