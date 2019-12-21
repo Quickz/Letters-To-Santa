@@ -10,7 +10,6 @@ public class Points : MonoBehaviour
     public int Total;
     public Text tx;
 
-
     // Update is called once per frame
     void Update()
     {

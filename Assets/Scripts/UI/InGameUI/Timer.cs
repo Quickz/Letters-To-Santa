@@ -7,6 +7,7 @@ public class Timer : MonoBehaviour
 {
     public float TimeLeft;
     public WinScreen ws;
+    public FailedScreen fs;
     public Points pt;
     public Text tx;
     // Update is called once per frame
@@ -20,7 +21,7 @@ public class Timer : MonoBehaviour
         tx.text = "" + (int)TimeLeft;
 
         if (TimeLeft <= 0 && pt.point <= 50) {
-            TimeLeft = 0;
+            fs.Open();
         }
     }
 }
