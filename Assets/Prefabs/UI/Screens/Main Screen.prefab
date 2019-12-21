@@ -266,6 +266,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1625167797105139815}
     m_Modifications:
+    - target: {fileID: 3791187614720064576, guid: 8cd3ec5f812c4fe439db40592c35fd39,
+        type: 3}
+      propertyPath: wobblePeriodically
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5369334143024735941, guid: 8cd3ec5f812c4fe439db40592c35fd39,
         type: 3}
       propertyPath: m_LocalPosition.x
