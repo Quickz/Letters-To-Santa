@@ -43,6 +43,7 @@ public class StandardButton :
         {
             StartWobbling();
         }
+        textField.color = Color.black;
     }
 
     private void StartWobbling()
