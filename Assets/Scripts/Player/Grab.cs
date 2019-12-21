@@ -26,7 +26,7 @@ public class Grab : MonoBehaviour
             {
                 ray = Physics2D.Raycast(point.position, Vector2.right * transform.localScale.x, distance);
 
-                if (ray.collider != null && ray.collider.gameObject.tag != "Bin")
+                if (ray.collider != null && ray.collider.gameObject.tag != "World")
                 {
                     isGrabbed = true;
                 }

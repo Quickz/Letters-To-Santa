@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bin
+  - Item1
+  - Item2
+  - Item3
+  - Bin1
+  - Bin2
+  - Bin3
   layers:
   - Default
   - TransparentFX
