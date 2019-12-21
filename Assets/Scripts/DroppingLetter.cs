@@ -8,7 +8,8 @@ public class DroppingLetter : MonoBehaviour
     public Points pts;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag != "Player") {
+        Debug.Log("Cool");
+        if (collision.gameObject.tag == "Bin") {
             Destroy(gameObject);
         }
     }
