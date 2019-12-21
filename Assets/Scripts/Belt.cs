@@ -11,6 +11,9 @@ public class Belt : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        collision.transform.Translate(Direction * speed * Time.deltaTime);
+        if (collision.gameObject.tag != "Player") {
+
+            collision.transform.Translate(Direction * speed * Time.deltaTime);
+        }
     }
 }
