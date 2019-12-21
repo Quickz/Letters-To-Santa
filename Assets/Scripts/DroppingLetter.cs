@@ -4,18 +4,13 @@ using UnityEngine;
 
 public class DroppingLetter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int randomTag;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        randomTag = Random.Range(1, 3);
+        gameObject.tag = "Item"+randomTag;
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("Am Colliding");
