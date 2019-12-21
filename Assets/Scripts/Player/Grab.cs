@@ -29,7 +29,7 @@ public class Grab : MonoBehaviour
                     Vector2.right * transform.localScale.x,
                     distance);
 
-                if (ray.collider.GetComponent<DroppingLetter>())
+                if (ray != default(RaycastHit2D) && ray.collider.GetComponent<DroppingLetter>())
                 {
                     isGrabbed = true;
                 }
