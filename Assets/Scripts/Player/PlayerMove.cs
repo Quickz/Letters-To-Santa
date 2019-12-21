@@ -25,26 +25,18 @@ public class PlayerMove : MonoBehaviour
         Movemnt.x = Input.GetAxisRaw("Horizontal");
         Movemnt.y = Input.GetAxisRaw("Vertical");
             
-            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-            {
-                transform.localScale = new Vector2(-someScale, transform.localScale.y);
-                direction = -1;
-                g.ChangeBackWhereObject();
-            }
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.localScale = new Vector2(-someScale, transform.localScale.y);
+            direction = -1;
+        }
      
           
-            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-            {
-                transform.localScale = new Vector2(someScale, transform.localScale.y);
-                direction = 1;
-                g.ChangeBackWhereObject();
-            }
-
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
-            g.ChangeWhereObject();
+            transform.localScale = new Vector2(someScale, transform.localScale.y);
+            direction = 1;
         }
-
     }
 
     private void FixedUpdate()

@@ -1,58 +1,58 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Grab : MonoBehaviour
 {
-    public bool isGrabbed { get; private set; }
-    
     [SerializeField]
-    private float distance;
+    private float radius = 1f;
     [SerializeField]
-    private Transform holdPoint;
-    [SerializeField]
-    private Transform downPos;
-    [SerializeField]
-    private Transform normalPos;
-    
-    private RaycastHit2D ray;
-    private RaycastHit2D cast;
+    private Transform holdingPoint = null;
+
+    private DroppingLetter letter;
+
+    private DroppingLetter ClosestNearbyLetter => Physics2D
+        .OverlapCircleAll(holdingPoint.position, radius)
+        .Select(x => x.GetComponent<DroppingLetter>())
+        .Where(x => x != null)
+        .OrderBy(x => Vector2.Distance(x.transform.position, holdingPoint.transform.position))
+        .FirstOrDefault();
 
     private void Update()
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            if (!isGrabbed)
+            if (letter == null)
             {
-                ray = Physics2D.Raycast(
-                    normalPos.position,
-                    Vector2.right * transform.localScale.x,
-                    distance);
-
-                if (ray != default(RaycastHit2D) && ray.collider.GetComponent<DroppingLetter>())
-                {
-                    isGrabbed = true;
-                }
+                letter = ClosestNearbyLetter;
             }
 
-            if (isGrabbed && ray != default(RaycastHit2D))
+            if (letter != null)
             {
-                ray.collider.gameObject.transform.position = holdPoint.position;
+                letter.transform.position = holdingPoint.position;
             }
         }
         else
         {
-            isGrabbed = false;
+            letter = null;
         }
     }
 
-    public void ChangeWhereObject()
-    { 
-        normalPos.transform.position = downPos.transform.position;
-    }
-    public void ChangeBackWhereObject()
+    private void OnDrawGizmos()
     {
-        normalPos.transform.position = normalPos.transform.position;
+        if (holdingPoint != null)
+        {
+            if (letter == null)
+            {
+                Gizmos.color = Color.red;
+            }
+            else
+            {
+                Gizmos.color = Color.green;
+            }
+
+            Gizmos.DrawWireSphere(holdingPoint.position, radius);
+        }
     }
 }
-
