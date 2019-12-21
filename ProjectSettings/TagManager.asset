@@ -11,6 +11,7 @@ TagManager:
   - Bin1
   - Bin2
   - Bin3
+  - World
   layers:
   - Default
   - TransparentFX
