@@ -14,13 +14,13 @@ public class Timer : MonoBehaviour
     void Update()
     {
         TimeLeft -= Time.deltaTime;
-        if (TimeLeft <= 0 && pt.point >= 50) {
+        if (TimeLeft <= 0 && pt.Total >= 50) {
             ws.Open();
         }
 
         tx.text = "" + (int)TimeLeft;
 
-        if (TimeLeft <= 0 && pt.point <= 50) {
+        if (TimeLeft <= 0 && pt.Total <= 50) {
             fs.Open();
         }
     }

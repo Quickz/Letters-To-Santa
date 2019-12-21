@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2838b8c87fcfa404fa2e09439723a49d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeLeft: 10
+  TimeLeft: 60
   ws: {fileID: 1756330613}
   fs: {fileID: 0}
   pt: {fileID: 207625645}
@@ -4762,6 +4762,11 @@ PrefabInstance:
     - target: {fileID: 1262336197504539281, guid: 8d71462955d45364bb9a75bd7df11a54,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262336197504539285, guid: 8d71462955d45364bb9a75bd7df11a54,
+        type: 3}
+      propertyPath: m_PixelPerfect
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
