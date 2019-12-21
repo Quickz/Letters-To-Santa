@@ -29,7 +29,7 @@ public class PlayerMove : MonoBehaviour
             {
                 transform.localScale = new Vector2(-someScale, transform.localScale.y);
                 direction = -1;
-                g.changeBackWhereObject();
+                g.ChangeBackWhereObject();
             }
      
           
@@ -37,12 +37,12 @@ public class PlayerMove : MonoBehaviour
             {
                 transform.localScale = new Vector2(someScale, transform.localScale.y);
                 direction = 1;
-                g.changeBackWhereObject();
+                g.ChangeBackWhereObject();
             }
 
         if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
-            g.changeWhereObject();
+            g.ChangeWhereObject();
         }
 
     }

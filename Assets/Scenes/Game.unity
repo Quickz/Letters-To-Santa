@@ -355,13 +355,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccda520dd5b426049911a24a627c011e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isGrabbed: 0
   distance: 3
   point: {fileID: 1498297419}
   point2: {fileID: 2040112858}
-  HoldPoint: {fileID: 1230325399}
-  DownPos: {fileID: 1498297419}
-  NormalPos: {fileID: 2040112858}
+  holdPoint: {fileID: 1230325399}
+  downPos: {fileID: 1498297419}
+  normalPos: {fileID: 2040112858}
 --- !u!212 &207625650
 SpriteRenderer:
   m_ObjectHideFlags: 0
