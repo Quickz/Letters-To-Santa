@@ -7,11 +7,6 @@ public class Spawner : MonoBehaviour
     public float timer = 5;
     public GameObject[] Letters;
     int randomLetter;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()

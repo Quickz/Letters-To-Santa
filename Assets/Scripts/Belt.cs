@@ -10,7 +10,6 @@ public class Belt : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log("Cool");
         collision.transform.Translate(Vector2.left * speed * Time.deltaTime);
     }
 }
