@@ -243,6 +243,7 @@ MonoBehaviour:
   belt: {fileID: 0}
   endpoint: {fileID: 0}
   speed: 0.6
+  Direction: {x: 0, y: 0}
 --- !u!1 &207625644
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,6 +342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   rb: {fileID: 207625646}
+  g: {fileID: 207625649}
 --- !u!114 &207625649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,6 +360,8 @@ MonoBehaviour:
   point: {fileID: 1498297419}
   point2: {fileID: 2040112858}
   HoldPoint: {fileID: 1230325399}
+  DownPos: {fileID: 1498297419}
+  NormalPos: {fileID: 2040112858}
 --- !u!212 &207625650
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -419,9 +423,9 @@ Transform:
   m_LocalPosition: {x: -0.1, y: 1.89, z: 0}
   m_LocalScale: {x: 2.1115, y: 2.1115, z: 2.1115}
   m_Children:
+  - {fileID: 2040112858}
   - {fileID: 1498297419}
   - {fileID: 1230325399}
-  - {fileID: 2040112858}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -749,6 +753,7 @@ MonoBehaviour:
   belt: {fileID: 0}
   endpoint: {fileID: 0}
   speed: 0.6
+  Direction: {x: 0, y: 0}
 --- !u!23 &937376583
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1236,7 +1241,7 @@ Transform:
   m_LocalScale: {x: 0.47359693, y: 0.47359693, z: 0.47359693}
   m_Children: []
   m_Father: {fileID: 207625651}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1340291426
 GameObject:
@@ -1458,7 +1463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1498297419}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Down Pos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1473,10 +1478,10 @@ Transform:
   m_GameObject: {fileID: 1498297418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.38, y: -0.03, z: 0}
-  m_LocalScale: {x: 0.47359693, y: 0.47359693, z: 0.47359693}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 207625651}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1588082056
 GameObject:
@@ -1873,6 +1878,7 @@ MonoBehaviour:
   belt: {fileID: 0}
   endpoint: {fileID: 0}
   speed: 0.8
+  Direction: {x: 0, y: 0}
 --- !u!1 &2040112857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,7 +1889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2040112858}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: Normal Pos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1901,7 +1907,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 207625651}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1818167424587715925
 PrefabInstance:

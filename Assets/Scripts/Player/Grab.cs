@@ -27,7 +27,7 @@ public class Grab : MonoBehaviour
                 }
             }
 
-            if (isGrabbed)
+            if (isGrabbed && ray != default(RaycastHit2D))
             {
                 ray.collider.gameObject.transform.position = HoldPoint.position;
             }
