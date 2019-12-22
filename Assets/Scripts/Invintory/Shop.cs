@@ -21,7 +21,8 @@ public class Shop : MonoBehaviour
     };
 
     //We set Name to int becaue we ant to get the name in the list.
-    void BuyObject(int Name) {
+   public void BuyObject(int Name) {
+        Debug.Log("Test");
         int AmountOfCoins = CoinManager.Coins;
         string Objectbuying;
         int Price;
