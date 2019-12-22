@@ -6,9 +6,12 @@ public class DroppingLetter : MonoBehaviour
 {
     public int randomTag;
     public Points pts;
+    BagsMove bags;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag != "Player") {
+        if (collision.gameObject.tag == "Bin") {
+            bags = collision.gameObject.GetComponent<BagsMove>();
+            bags.AmountOfBags += 1;
             Destroy(gameObject);
         }
     }

@@ -12,6 +12,7 @@ TagManager:
   - Bin2
   - Bin3
   - World
+  - LastCarpet
   layers:
   - Default
   - TransparentFX
