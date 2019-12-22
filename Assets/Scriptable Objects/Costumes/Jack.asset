@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 21300000, guid: 5a93764ef19f1bf4db8b5ff51e76303c, type: 3}
   effects: []
+  price: 100

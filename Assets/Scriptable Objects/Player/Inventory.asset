@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   costumes:
   - {fileID: 11400000, guid: 1b8055e9dab85ce46a767f1a58a170aa, type: 2}
+  - {fileID: 0}
