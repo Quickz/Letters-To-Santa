@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Shop : MonoBehaviour
 {
-    public Invintory In;
+    public Inventory In;
     public string[] Items = {
         "Kevin",
         "Jack",
@@ -21,7 +21,8 @@ public class Shop : MonoBehaviour
     };
 
     //We set Name to int becaue we ant to get the name in the list.
-   public void BuyObject(int Name) {
+    public void BuyObject(int Name)
+    {
         Debug.Log("Test");
         int AmountOfCoins = CoinManager.Coins;
         string Objectbuying;
@@ -29,8 +30,9 @@ public class Shop : MonoBehaviour
         Objectbuying = Items[Name];
         Price = ItemPrice[Name];
 
-        if (AmountOfCoins <= Price) {
-            In.TakeInInvintory(Objectbuying);
+        if (AmountOfCoins <= Price)
+        {
+            
         }
         //testing
         Debug.Log(Objectbuying);

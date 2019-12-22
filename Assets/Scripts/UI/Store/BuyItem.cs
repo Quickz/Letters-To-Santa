@@ -7,7 +7,17 @@ public class BuyItem : MonoBehaviour
 {
     public Shop shop;
     public Button[] Items;
-   public void Buyone() {
+    public Inventory IN;
+    public Costume[] Costume;
+    public Image[] Images;
+    string costumesOwned;
+
+    public void Start()
+    {
+        costumesOwned = IN.costumes.ToString();
+        
+    }
+    public void Buyone() {
         shop.BuyObject(0);
     }
     public void Buytwo()

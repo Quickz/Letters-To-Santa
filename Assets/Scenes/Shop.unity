@@ -314,6 +314,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  IN: {fileID: 0}
+  Costume: []
+  Images: []
 --- !u!114 &49703261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d19a53165bc7f549ba7c60d50413891, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  In: {fileID: 0}
+  In: {fileID: 11400000, guid: 265fd778bdf5316478817be005cc28f1, type: 2}
   Items:
   - Kevin
   - Jack
