@@ -16,6 +16,7 @@ public class Timer : MonoBehaviour
         TimeLeft -= Time.deltaTime;
         if (TimeLeft <= 0)
         {
+            
             ws.DoneGame();
         }
 
