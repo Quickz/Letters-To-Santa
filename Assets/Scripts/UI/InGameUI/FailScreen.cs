@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class FailedScreen : BaseScreen
+public class FailScreen : BaseScreen
 {
-    public static FailedScreen Instance { get; private set; }
+    public static FailScreen Instance { get; private set; }
 
     [SerializeField]
     private Button exitButton = null;
@@ -32,6 +32,14 @@ public class FailedScreen : BaseScreen
 
     }
 
+    private void Update()
+    {
+        // for testing purposes only
+        if (Input.GetKeyDown(KeyCode.M) && !IsOpen)
+        {
+            Open();
+        }
+    }
 
     private void ReturnToMainMenu()
     {
