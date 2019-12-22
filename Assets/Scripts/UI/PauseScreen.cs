@@ -38,16 +38,25 @@ public sealed class PauseScreen : BaseScreen
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (!IsOpen)
             {
                 Open();
+                
             }
             else
             {
                 Close();
+                
             }
+        }
+
+        if (!IsOpen) {
+            Time.timeScale = 1f;
+        }
+        else {
+            Time.timeScale = 0f;
         }
     }
 

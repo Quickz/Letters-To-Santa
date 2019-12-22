@@ -13,7 +13,8 @@ public sealed class WinScreen : BaseScreen
     private Button exitButton = null;
     public TextMeshProUGUI textmesh;
     public Points pts;
-    private float points;
+    private float points = 0f;
+
     protected override void Awake()
     {
         base.Awake();
@@ -42,8 +43,17 @@ public sealed class WinScreen : BaseScreen
 
     public void DoneGame() {
         Open();
-        points = pts.Total / 10;
+
+        //fall back
+        if (pts.Total > 0) {
+            points = pts.Total / 10;
+        }
+        else {
+            pts.point = 1;
+        }
+        Debug.Log(points);
         textmesh.text = "" + points;
+        CoinManager.Coins = (int)points;
     }
 
     private void ReturnToMainMenu()
