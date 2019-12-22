@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public sealed class WinScreen : BaseScreen
 {
@@ -10,7 +11,9 @@ public sealed class WinScreen : BaseScreen
 
     [SerializeField]
     private Button exitButton = null;
-
+    public TextMeshProUGUI textmesh;
+    public Points pts;
+    private float points;
     protected override void Awake()
     {
         base.Awake();
@@ -34,14 +37,13 @@ public sealed class WinScreen : BaseScreen
 
     private void Update()
     {
-        // for testing purposes only
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            if (!IsOpen)
-            {
-                Open();
-            }
-        }
+
+    }
+
+    public void DoneGame() {
+        Open();
+        points = pts.Total / 10;
+        textmesh.text = "" + points;
     }
 
     private void ReturnToMainMenu()
