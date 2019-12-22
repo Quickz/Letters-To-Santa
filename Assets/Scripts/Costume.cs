@@ -8,7 +8,8 @@ using UnityEngine;
     menuName = "Scripable Object/Costume")]
 public class Costume : ScriptableObject
 {
-    public Sprite FrontSprite => FrontSprite;
+    public Sprite FrontSprite => frontSprite;
+    public int Price => price;
 
     public ReadOnlyCollection<Effect> Effects => effects.AsReadOnly();
 
@@ -17,4 +18,7 @@ public class Costume : ScriptableObject
 
     [SerializeField]
     private List<Effect> effects = null;
+
+    [SerializeField]
+    private int price = 50;
 }

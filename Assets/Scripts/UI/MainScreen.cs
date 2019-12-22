@@ -18,6 +18,9 @@ public sealed class MainScreen : BaseScreen
     private Button creditsButton = null;
 
     [SerializeField]
+    private Button shopButton = null;
+
+    [SerializeField]
     private Button quitButton = null;
 
     protected override void Awake()
@@ -40,6 +43,7 @@ public sealed class MainScreen : BaseScreen
         startButton.onClick.AddListener(StartGameWithFade);
         highscoresButton.onClick.AddListener(HighscoresScreen.Instance.OpenAlone);
         creditsButton.onClick.AddListener(CreditsScreen.Instance.OpenAlone);
+        shopButton.onClick.AddListener(ShopScreen.Instance.OpenAlone);
         quitButton.onClick.AddListener(Application.Quit);
 
 #if UNITY_WEBGL
