@@ -3317,6 +3317,7 @@ GameObject:
   - component: {fileID: 1091395128}
   - component: {fileID: 1091395131}
   - component: {fileID: 1091395132}
+  - component: {fileID: 1091395133}
   m_Layer: 0
   m_Name: Bag_mult5iple (1)
   m_TagString: Bin
@@ -3449,6 +3450,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AmountOfBags: 0
   pts: {fileID: 207625645}
+--- !u!114 &1091395133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091395127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c188d46a6ac376b49bff9be9f7e59f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  pts: {fileID: 207625645}
+  tagg: Item3
+  Letters_Rec: 0
 --- !u!1 &1106170928
 GameObject:
   m_ObjectHideFlags: 0
@@ -5314,6 +5331,7 @@ GameObject:
   - component: {fileID: 1725362527}
   - component: {fileID: 1725362530}
   - component: {fileID: 1725362531}
+  - component: {fileID: 1725362532}
   m_Layer: 0
   m_Name: Bag_multiple 1
   m_TagString: Bin
@@ -5446,6 +5464,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AmountOfBags: 0
   pts: {fileID: 207625645}
+--- !u!114 &1725362532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725362526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c188d46a6ac376b49bff9be9f7e59f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  pts: {fileID: 207625645}
+  tagg: Item1
+  Letters_Rec: 0
 --- !u!1 &1735765641
 GameObject:
   m_ObjectHideFlags: 0
@@ -6030,7 +6064,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969903487}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -2.32, y: 3.65, z: 0.8}
+  m_LocalPosition: {x: -2.32, y: 3.68, z: 0.8}
   m_LocalScale: {x: 6.8183017, y: 6.8183017, z: 6.8183}
   m_Children: []
   m_Father: {fileID: 0}
