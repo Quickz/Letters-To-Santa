@@ -32,7 +32,7 @@ public sealed class PauseScreen : BaseScreen
     private void Start()
     {
         resumeButton.onClick.AddListener(Close);
-        exitButton.onClick.AddListener(ReturnToMainMenuWithFade);
+        exitButton.onClick.AddListener(ReturnToMainMenu);
 
     }
 
@@ -48,19 +48,6 @@ public sealed class PauseScreen : BaseScreen
             {
                 Close();
             }
-        }
-    }
-
-    private void ReturnToMainMenuWithFade()
-    {
-        if (SceneTransition.Instance != null)
-        {
-            SceneTransition.Instance.RunWithFade(ReturnToMainMenu);
-        }
-        else
-        {
-            Debug.LogError("Unable to find scene transition");
-            ReturnToMainMenu();
         }
     }
 
