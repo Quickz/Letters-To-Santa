@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Belt : MonoBehaviour
 {
-    public GameObject belt;
-    public Transform endpoint;
+    //public GameObject belt;
+    //public Transform endpoint;
     public float speed;
     public Vector2 Direction;
 
