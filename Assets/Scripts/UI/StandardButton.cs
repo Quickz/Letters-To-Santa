@@ -46,6 +46,11 @@ public class StandardButton :
         textField.color = Color.black;
     }
 
+    private void OnDisable()
+    {
+        transform.localScale = Vector3.one;
+    }
+
     private void StartWobbling()
     {
         StartCoroutine(Wobble());
