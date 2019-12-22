@@ -15,3 +15,7 @@ MonoBehaviour:
   costumes:
   - {fileID: 11400000, guid: 1b8055e9dab85ce46a767f1a58a170aa, type: 2}
   - {fileID: 11400000, guid: 020ce65ed98535143ab5615a436519c6, type: 2}
+  - {fileID: 11400000, guid: 853238a72bf6051458f4afc6362ccf88, type: 2}
+  - {fileID: 11400000, guid: 3d0cc5f2fc5b1444fb7533e6783497cb, type: 2}
+  - {fileID: 11400000, guid: 8ba582948fa4cdf41a2bccaf8a8d815c, type: 2}
+  - {fileID: 11400000, guid: 22dadffcc15b9cd41a63ffbf052747bd, type: 2}
