@@ -8,6 +8,8 @@ public class Bags : MonoBehaviour
     public float points;
     public Points pts;
     public string tagg;
+
+    public int Letters_Rec;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == tagg) {
@@ -19,5 +21,9 @@ public class Bags : MonoBehaviour
             pts.Total -= 5;
             Debug.Log(points);
         }
+    }
+
+    public void CountLetters() {
+        
     }
 }
