@@ -18,27 +18,41 @@ public class Tutorial : MonoBehaviour
             {
                 popUps[i].SetActive(true);
             }
-            else {
+            else
+            {
                 popUps[i].SetActive(false);
             }
+        }
 
-            if (popUpIndex == 0) {
-                if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D)) {
-                    popUpIndex++;
-                }
-                else if(popUpIndex == 1){
-                    if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S)) {
-                        popUpIndex++;
-                    }
-                }
-                else if (popUpIndex == 1)
-                {
-                    if (Input.GetKeyDown(KeyCode.Space))
-                    {
-                        popUpIndex++;
-                    }
-                }
+        if (popUpIndex == 0)
+        {
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                popUpIndex++;
             }
         }
+        else if (popUpIndex == 1)
+        {
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                popUpIndex++;
+            }
+        }
+        else if (popUpIndex == 2)
+        {
+            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S))
+            {
+                popUpIndex++;
+            }
+        }
+        else if (popUpIndex == 3)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                popUpIndex++;
+            }
+        }
+
+
     }
 }
