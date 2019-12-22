@@ -11,6 +11,7 @@ public class PlayerMove : MonoBehaviour
     public Rigidbody2D rb;
     Vector2 Movemnt;
     public Grab g;
+    public Joystick joystick;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,9 +23,10 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Movemnt.x = Input.GetAxisRaw("Horizontal");
-        Movemnt.y = Input.GetAxisRaw("Vertical");
-            
+
+        Movemnt.x = joystick.Horizontal;
+        Movemnt.y = joystick.Vertical;
+
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             transform.localScale = new Vector2(-someScale, transform.localScale.y);
