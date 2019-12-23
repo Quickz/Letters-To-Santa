@@ -39,5 +39,6 @@ public sealed class ShopScreen : BaseScreen
 
         // default costume
         playerInventory.costumes.Add(availableCostumes.costumes[0]);
+        EquipedCostumeManager.EquipedCostume = availableCostumes.costumes[0];
     }
 }

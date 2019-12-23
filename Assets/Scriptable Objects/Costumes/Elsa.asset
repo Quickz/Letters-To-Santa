@@ -15,4 +15,4 @@ MonoBehaviour:
   frontSprite: {fileID: 8405122241432388461, guid: deb0781eca2f64e429a51e97a642fb0f,
     type: 3}
   effects: []
-  price: 75
+  price: 0
