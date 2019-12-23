@@ -66,6 +66,11 @@ public class ShopCostume : MonoBehaviour
 
     private void OnEquipedCostumeChanged(object sender, Costume equippedCostume)
     {
+        if (button == null)
+        {
+            return;
+        }
+
         // equip
         if (equippedCostume == costume)
         {

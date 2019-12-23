@@ -35,10 +35,13 @@ public sealed class ShopScreen : BaseScreen
     {
         backButton.onClick.AddListener(MainScreen.Instance.OpenAlone);
 
-        playerInventory.costumes.Clear();
+        if (EquipedCostumeManager.EquipedCostume == null)
+        {
+            playerInventory.costumes.Clear();
 
-        // default costume
-        playerInventory.costumes.Add(availableCostumes.costumes[0]);
-        EquipedCostumeManager.EquipedCostume = availableCostumes.costumes[0];
+            // default costume
+            playerInventory.costumes.Add(availableCostumes.costumes[0]);
+            EquipedCostumeManager.EquipedCostume = availableCostumes.costumes[0];
+        }
     }
 }
