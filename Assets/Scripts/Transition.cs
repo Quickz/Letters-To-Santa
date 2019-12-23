@@ -75,7 +75,7 @@ public class Transition : MonoBehaviour
     {
         yield return FadeOut();
         Callback?.Invoke();
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSecondsRealtime(0.05f);
         yield return FadeIn();
     }
 
