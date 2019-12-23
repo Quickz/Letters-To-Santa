@@ -27918,7 +27918,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340954685}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.45, y: -4.05, z: -0.6}
+  m_LocalPosition: {x: 12.45, y: -3.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -27941,6 +27941,7 @@ MonoBehaviour:
   - {fileID: 1818167423620063819, guid: 9bfa84eaefd8a944898d6f044eaa121b, type: 3}
   - {fileID: 9079255800222574885, guid: 6d0c9651565f62d4395454e7687e7a56, type: 3}
   - {fileID: 2726623351706529226, guid: 2310acd77760c734285cdbffac15efbf, type: 3}
+  Pos: {x: 0, y: 0, z: -4}
 --- !u!1 &371276052
 GameObject:
   m_ObjectHideFlags: 0
@@ -39441,7 +39442,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -57044,7 +57045,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804385019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.55, y: -0.17, z: 0}
+  m_LocalPosition: {x: 1.25, y: -0.17, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 207625651}
@@ -60134,7 +60135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943211535}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.2, y: 5.62, z: -0.5}
+  m_LocalPosition: {x: 11.85, y: 6.33, z: -1.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -60157,6 +60158,7 @@ MonoBehaviour:
   - {fileID: 9079255800222574885, guid: 6d0c9651565f62d4395454e7687e7a56, type: 3}
   - {fileID: 1818167423620063819, guid: 9bfa84eaefd8a944898d6f044eaa121b, type: 3}
   - {fileID: 2726623351706529226, guid: 2310acd77760c734285cdbffac15efbf, type: 3}
+  Pos: {x: 0, y: 0, z: -4}
 --- !u!1 &2005018076
 GameObject:
   m_ObjectHideFlags: 0
@@ -60812,7 +60814,7 @@ PrefabInstance:
     - target: {fileID: 2726623351706529223, guid: 2310acd77760c734285cdbffac15efbf,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2726623351706529226, guid: 2310acd77760c734285cdbffac15efbf,
         type: 3}
