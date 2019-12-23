@@ -8,10 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: ec0fc8fb542421f47a62e6a02f8d212c
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/woodrell_Levels.unity
-    guid: 3877b432164bb004fada5ff12a11c403
+    path: Assets/Scenes/Level1.unity
+    guid: 5b7f443cbd43e6e468def6c4ff20d7bd
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 9ca801b6ba8ec5f4e8523adc1f8cecbc
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: e51c95ee6dfd92443bd9d215aea05559
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 3aaa34002d2383b4aaa88e8f1ab03eab
   m_configObjects: {}
