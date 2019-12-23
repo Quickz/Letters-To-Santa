@@ -14,9 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   window: {fileID: 3832100669054546158}
   backButton: {fileID: 6091855054133373}
-  levelButton1: {fileID: 4249056851619355810}
-  levelButton2: {fileID: 9171787147105535010}
-  levelButton3: {fileID: 147585697371315707}
 --- !u!1001 &963660558229305388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24,6 +21,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3832100669054546153}
     m_Modifications:
+    - target: {fileID: 7414639416388260002, guid: 43cb68d4f9e24084f805d316caf41dfd,
+        type: 3}
+      propertyPath: scene
+      value: woodrell_Levels
+      objectReference: {fileID: 0}
     - target: {fileID: 8221083611898051596, guid: 43cb68d4f9e24084f805d316caf41dfd,
         type: 3}
       propertyPath: m_Name
@@ -161,18 +163,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cb68d4f9e24084f805d316caf41dfd, type: 3}
---- !u!114 &9171787147105535010 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8221083611898051598, guid: 43cb68d4f9e24084f805d316caf41dfd,
-    type: 3}
-  m_PrefabInstance: {fileID: 963660558229305388}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5251348130607259820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -180,6 +170,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3832100669054546153}
     m_Modifications:
+    - target: {fileID: 7414639416388260002, guid: 43cb68d4f9e24084f805d316caf41dfd,
+        type: 3}
+      propertyPath: scene
+      value: woodrell_Levels
+      objectReference: {fileID: 0}
     - target: {fileID: 8221083611898051596, guid: 43cb68d4f9e24084f805d316caf41dfd,
         type: 3}
       propertyPath: m_Name
@@ -292,18 +287,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cb68d4f9e24084f805d316caf41dfd, type: 3}
---- !u!114 &4249056851619355810 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8221083611898051598, guid: 43cb68d4f9e24084f805d316caf41dfd,
-    type: 3}
-  m_PrefabInstance: {fileID: 5251348130607259820}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5374501304504417977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -467,6 +450,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3832100669054546153}
     m_Modifications:
+    - target: {fileID: 7414639416388260002, guid: 43cb68d4f9e24084f805d316caf41dfd,
+        type: 3}
+      propertyPath: scene
+      value: woodrell_Levels
+      objectReference: {fileID: 0}
     - target: {fileID: 8221083611898051596, guid: 43cb68d4f9e24084f805d316caf41dfd,
         type: 3}
       propertyPath: m_Name
@@ -604,18 +592,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cb68d4f9e24084f805d316caf41dfd, type: 3}
---- !u!114 &147585697371315707 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8221083611898051598, guid: 43cb68d4f9e24084f805d316caf41dfd,
-    type: 3}
-  m_PrefabInstance: {fileID: 8078177436284035573}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &8372105657889392229
 PrefabInstance:
   m_ObjectHideFlags: 0
