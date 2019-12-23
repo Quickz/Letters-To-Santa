@@ -40,7 +40,7 @@ public sealed class MainScreen : BaseScreen
 
     private void Start()
     {
-        startButton.onClick.AddListener(StartGame);
+        startButton.onClick.AddListener(StartGameWithFade);
         highscoresButton.onClick.AddListener(HighscoresScreen.Instance.OpenAlone);
         creditsButton.onClick.AddListener(CreditsScreen.Instance.OpenAlone);
         shopButton.onClick.AddListener(ShopScreen.Instance.OpenAlone);
@@ -53,8 +53,13 @@ public sealed class MainScreen : BaseScreen
         OpenAlone();
     }
 
+    private void StartGameWithFade()
+    {
+        SceneTransition.Instance.RunWithFade(StartGame);
+    }
+
     private void StartGame()
     {
-        LevelSelectionScreen.Instance.OpenAlone();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
