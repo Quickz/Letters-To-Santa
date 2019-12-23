@@ -106,7 +106,7 @@ public class ShopCostume : MonoBehaviour
         button.interactable = true;
         TMP_Text textField = button.GetComponentInChildren<TMP_Text>();
         textField.text = "Equip";
-        textField.color = Color.white;
+        textField.color = Color.black;
     }
 
     private void MarkAsEquipped()
