@@ -12,7 +12,7 @@ public class ShopCostume : MonoBehaviour
     private Costume costume = null;
 
     [SerializeField]
-    private Button buyButton = null;
+    private Button button = null;
 
     [SerializeField]
     private Inventory playerInventory = null;
@@ -23,15 +23,63 @@ public class ShopCostume : MonoBehaviour
     [SerializeField]
     private TMP_Text priceLabel = null;
 
+    enum CostumeStatus
+    {
+        None,
+        Purchased,
+        Equipped
+    }
+    private CostumeStatus costumeStatus;
+
+    private void Awake()
+    {
+        EquipedCostumeManager.EquipedCostumeChanged += OnEquipedCostumeChanged;
+    }
+
     private void Start()
     {
         if (playerInventory.costumes.Contains(costume))
         {
-            DisablePurchasingOption();
+            if (EquipedCostumeManager.EquipedCostume == costume)
+            {
+                MarkAsEquipped();
+            }
+            else
+            {
+                MarkAsPurchased();
+            }
         }
-        else
+        button.onClick.AddListener(OnButtonClick);
+    }
+
+    private void OnButtonClick()
+    {
+        if (costumeStatus == CostumeStatus.None)
         {
-            buyButton.onClick.AddListener(Buy);
+            Buy();
+        }
+        else if (costumeStatus == CostumeStatus.Purchased)
+        {
+            Equip();
+        }
+    }
+
+    private void OnEquipedCostumeChanged(object sender, Costume equippedCostume)
+    {
+        if (button == null)
+        {
+            return;
+        }
+
+        // equip
+        if (equippedCostume == costume)
+        {
+            MarkAsEquipped();
+        }
+        // unequip
+        else if (costumeStatus == CostumeStatus.Equipped)
+        {
+            MarkAsPurchased();
         }
     }
 
@@ -42,16 +90,31 @@ public class ShopCostume : MonoBehaviour
             return;
         }
 
+        MarkAsPurchased();
         CoinManager.Coins -= costume.Price;
         playerInventory.costumes.Add(costume);
-        DisablePurchasingOption();
     }
 
-    private void DisablePurchasingOption()
+    private void Equip()
     {
-        buyButton.interactable = false;
-        TMP_Text textField = buyButton.GetComponentInChildren<TMP_Text>();
-        textField.text = "Owned";
+        EquipedCostumeManager.EquipedCostume = costume;
+    }
+
+    private void MarkAsPurchased()
+    {
+        costumeStatus = CostumeStatus.Purchased;
+        button.interactable = true;
+        TMP_Text textField = button.GetComponentInChildren<TMP_Text>();
+        textField.text = "Equip";
+        textField.color = Color.black;
+    }
+
+    private void MarkAsEquipped()
+    {
+        costumeStatus = CostumeStatus.Equipped;
+        button.interactable = false;
+        TMP_Text textField = button.GetComponentInChildren<TMP_Text>();
+        textField.text = "Equipped";
         textField.color = Color.white;
     }
 
