@@ -15,8 +15,8 @@ public class Spawner4 : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0) {
             randomLetter = Random.Range(1, 3);
-            Pos.x = 10.0f - (Random.value * 20.0f);
-            Pos.y = 3.0f  - (Random.value * 3f);
+            Pos.x = (Random.value * 22.0f) - 11.0f;
+            Pos.y = 0 - (Random.value * 7f);
             Pos.z = 0;
             Instantiate(Letters[randomLetter], Pos, Quaternion.identity);
             timer = 5;
