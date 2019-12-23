@@ -17,7 +17,7 @@ public class Spawner : MonoBehaviour
             randomLetter = Random.Range(1, 3);
             Pos.x = (Random.value * 22.0f) - 11.0f;
             Pos.y = 0 - (Random.value * 7f);
-            Pos.x = -4f;
+            Pos.z = -0.6f;
             Instantiate(Letters[randomLetter], Pos, Quaternion.identity);
             timer = 5;
         }
