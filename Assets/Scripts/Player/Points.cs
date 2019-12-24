@@ -8,13 +8,22 @@ public class Points : MonoBehaviour
 {
     public int point = 0;
     public int Total = 0;
-    public Text tx;
+    private Text textField;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        tx.text = "Points: " + Total;
-        if (Total < 0) {
+        textField = FindObjectOfType<PointsField>()?.TextField;
+        if (textField == null)
+        {
+            Debug.LogError("Unable to find points field");
+        }
+    }
+
+    private void Update()
+    {
+        textField.text = "Points: " + Total;
+        if (Total < 0)
+        {
             Total = 0;
         }
     }

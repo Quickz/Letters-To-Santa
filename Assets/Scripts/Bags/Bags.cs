@@ -6,10 +6,20 @@ using System.Linq;
 public class Bags : MonoBehaviour
 {
     public float points;
-    public Points pts;
     public string tagg;
-
     public int Letters_Rec;
+
+    private Points pts;
+
+    private void Start()
+    {
+        pts = FindObjectOfType<Points>();
+        if (pts == null)
+        {
+            Debug.LogError("Unable to find an instance of Points");
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == tagg) {

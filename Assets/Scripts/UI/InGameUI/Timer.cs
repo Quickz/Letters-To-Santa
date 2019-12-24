@@ -8,7 +8,6 @@ public class Timer : MonoBehaviour
     public float TimeLeft;
     public WinScreen ws;
     public FailScreen fs;
-    public Points pt;
     public Text tx;
     // Update is called once per frame
     void Update()

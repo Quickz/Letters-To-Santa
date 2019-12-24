@@ -5,12 +5,16 @@ using UnityEngine;
 public class BagsMove : MonoBehaviour
 {
     public int AmountOfBags;
-    int FinalBonus;
-    public Points pts;
-    // Update is called once per frame
-    void Update()
+    private int FinalBonus;
+    private  Points pts;
+
+    private void Start()
     {
-        
+        pts = FindObjectOfType<Points>();
+        if (pts == null)
+        {
+            Debug.LogError("Unable to find an instance of Points");
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

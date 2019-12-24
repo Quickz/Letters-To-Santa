@@ -12,7 +12,7 @@ public sealed class WinScreen : BaseScreen
     [SerializeField]
     private Button exitButton = null;
     public TextMeshProUGUI textmesh;
-    public Points pts;
+    private Points pts;
     private float points = 0f;
 
     protected override void Awake()
@@ -34,6 +34,11 @@ public sealed class WinScreen : BaseScreen
     {
         exitButton.onClick.AddListener(ReturnToMainMenuWithFade);
 
+        pts = FindObjectOfType<Points>();
+        if (pts == null)
+        {
+            Debug.LogError("Unable to find an instance of Points");
+        }
     }
 
     public void DoneGame()
