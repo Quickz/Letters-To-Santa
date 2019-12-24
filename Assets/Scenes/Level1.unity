@@ -24755,6 +24755,7 @@ GameObject:
   - component: {fileID: 207625646}
   - component: {fileID: 207625645}
   - component: {fileID: 207625647}
+  - component: {fileID: 207625652}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -24908,6 +24909,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &207625652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207625644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c45621eb8023c640a28ef0aa38b1f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  costumeSpriteRenderer: {fileID: 207625650}
 --- !u!1 &228809809
 GameObject:
   m_ObjectHideFlags: 0
