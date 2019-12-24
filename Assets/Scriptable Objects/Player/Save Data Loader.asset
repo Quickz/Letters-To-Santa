@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5899bb20756cc404c97759acb4974d36, type: 3}
-  m_Name: Inventory
+  m_Script: {fileID: 11500000, guid: d11911a18642df243a286ead1c6cb413, type: 3}
+  m_Name: Save Data Loader
   m_EditorClassIdentifier: 
-  costumes:
-  - {fileID: 11400000, guid: 1b8055e9dab85ce46a767f1a58a170aa, type: 2}
-  - {fileID: 0}

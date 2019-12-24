@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using UnityEngine;
@@ -8,10 +9,14 @@ using UnityEngine;
     menuName = "Scripable Object/Costume")]
 public class Costume : ScriptableObject
 {
+    public string ID => id;
     public Sprite FrontSprite => frontSprite;
     public int Price => price;
 
     public ReadOnlyCollection<Effect> Effects => effects.AsReadOnly();
+
+    [SerializeField]
+    private string id = Guid.NewGuid().ToString();
 
     [SerializeField]
     private Sprite frontSprite = null;

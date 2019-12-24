@@ -15,9 +15,6 @@ public class ShopCostume : MonoBehaviour
     private Button button = null;
 
     [SerializeField]
-    private Inventory playerInventory = null;
-
-    [SerializeField]
     private Image icon = null;
 
     [SerializeField]
@@ -33,14 +30,14 @@ public class ShopCostume : MonoBehaviour
 
     private void Awake()
     {
-        EquipedCostumeManager.EquipedCostumeChanged += OnEquipedCostumeChanged;
+        SaveData.EquippedCostumeChanged += OnEquipedCostumeChanged;
     }
 
     private void Start()
     {
-        if (playerInventory.costumes.Contains(costume))
+        if (SaveData.PurchasedCostumes.Contains(costume))
         {
-            if (EquipedCostumeManager.EquipedCostume == costume)
+            if (SaveData.EquippedCostume == costume)
             {
                 MarkAsEquipped();
             }
@@ -92,12 +89,12 @@ public class ShopCostume : MonoBehaviour
 
         MarkAsPurchased();
         CoinManager.Coins -= costume.Price;
-        playerInventory.costumes.Add(costume);
+        SaveData.PurchasedCostumes.Add(costume);
     }
 
     private void Equip()
     {
-        EquipedCostumeManager.EquipedCostume = costume;
+        SaveData.EquippedCostume = costume;
     }
 
     private void MarkAsPurchased()

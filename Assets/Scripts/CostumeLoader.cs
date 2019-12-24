@@ -9,9 +9,9 @@ public class CostumeLoader : MonoBehaviour
 
     private void Start()
     {
-        if (EquipedCostumeManager.EquipedCostume != null)
+        if (SaveData.EquippedCostume != null)
         {
-            costumeSpriteRenderer.sprite = EquipedCostumeManager.EquipedCostume.FrontSprite;
+            costumeSpriteRenderer.sprite = SaveData.EquippedCostume.FrontSprite;
         }
     }
 }
