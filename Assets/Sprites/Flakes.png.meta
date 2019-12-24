@@ -1,0 +1,1471 @@
+fileFormatVersion: 2
+guid: 8d42fb50917827b42805ca83c23792fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5893364576486655765
+    second: Flakes_0
+  - first:
+      213: -8090498029075310947
+    second: Flakes_1
+  - first:
+      213: 4866474330229280516
+    second: Flakes_2
+  - first:
+      213: 4549592502869083479
+    second: Flakes_3
+  - first:
+      213: 8821834247508862405
+    second: Flakes_4
+  - first:
+      213: 3234801417062539900
+    second: Flakes_5
+  - first:
+      213: -243477399921847494
+    second: Flakes_6
+  - first:
+      213: 7832902031379170612
+    second: Flakes_7
+  - first:
+      213: 4112952178564611212
+    second: Flakes_8
+  - first:
+      213: -4944488680973726274
+    second: Flakes_9
+  - first:
+      213: -7756068600901449900
+    second: Flakes_10
+  - first:
+      213: -8466512836672155911
+    second: Flakes_11
+  - first:
+      213: -626460603118033295
+    second: Flakes_12
+  - first:
+      213: 2005463898225061405
+    second: Flakes_13
+  - first:
+      213: 3912269377024789787
+    second: Flakes_14
+  - first:
+      213: -1039497299507069861
+    second: Flakes_15
+  - first:
+      213: -2334670190870948039
+    second: Flakes_16
+  - first:
+      213: -8075406950430086660
+    second: Flakes_17
+  - first:
+      213: 1143585444754505116
+    second: Flakes_18
+  - first:
+      213: -732191849957614060
+    second: Flakes_19
+  - first:
+      213: -8013107655785102006
+    second: Flakes_20
+  - first:
+      213: -1051963883045027326
+    second: Flakes_21
+  - first:
+      213: 5711252810175485315
+    second: Flakes_22
+  - first:
+      213: 8481839672742927924
+    second: Flakes_23
+  - first:
+      213: -4683369458967547173
+    second: Flakes_24
+  - first:
+      213: -1277632927263294909
+    second: Flakes_25
+  - first:
+      213: -5423312231257893929
+    second: Flakes_26
+  - first:
+      213: 6587779859486219564
+    second: Flakes_27
+  - first:
+      213: -7423408076756579541
+    second: Flakes_28
+  - first:
+      213: 7703706612128305581
+    second: Flakes_29
+  - first:
+      213: 7010047309840637273
+    second: Flakes_30
+  - first:
+      213: -5423924350946335638
+    second: Flakes_31
+  - first:
+      213: 8846781452950392628
+    second: Flakes_32
+  - first:
+      213: -8017047241385449126
+    second: Flakes_33
+  - first:
+      213: -3231104096519806535
+    second: Flakes_34
+  - first:
+      213: 8376596237740864914
+    second: Flakes_35
+  - first:
+      213: 7305328176387488963
+    second: Flakes_36
+  - first:
+      213: -155732265942305961
+    second: Flakes_37
+  - first:
+      213: 1519970021263283811
+    second: Flakes_38
+  - first:
+      213: -6199343692025547423
+    second: Flakes_39
+  - first:
+      213: -7065419296299919959
+    second: Flakes_40
+  - first:
+      213: 1687172472041940240
+    second: Flakes_41
+  - first:
+      213: 8621646572772076768
+    second: Flakes_42
+  - first:
+      213: 5469981756823429081
+    second: Flakes_43
+  - first:
+      213: -5000901753827059733
+    second: Flakes_44
+  - first:
+      213: -4089154267430716496
+    second: Flakes_45
+  - first:
+      213: -2293999812152758554
+    second: Flakes_46
+  - first:
+      213: 7084782934050403063
+    second: Flakes_47
+  - first:
+      213: -294029260632047021
+    second: Flakes_48
+  - first:
+      213: -4105703007112830585
+    second: Flakes_49
+  - first:
+      213: 8131245263106551968
+    second: Flakes_50
+  - first:
+      213: 5130330399898244468
+    second: Flakes_51
+  - first:
+      213: 5809912739233066084
+    second: Flakes_52
+  - first:
+      213: -4596396045515050824
+    second: Flakes_53
+  - first:
+      213: 7257920177543419331
+    second: Flakes_54
+  - first:
+      213: -6413802889983458152
+    second: Flakes_55
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flakes_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 425
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652c2a03031fd964eb546be9a321d251
+      internalID: -5893364576486655765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 425
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc5ecb386d8207468226abc2c14d8d4
+      internalID: -8090498029075310947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 425
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f121b0ba97a154ea1879cedb40541d
+      internalID: 4866474330229280516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 425
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ec9e827b36ebe4fab1eb3833c0a88e
+      internalID: 4549592502869083479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 425
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6823ea077b101164a88775fefc02cf1f
+      internalID: 8821834247508862405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_5
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 425
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630dbfe60b94b3145aa49f5ac0e36004
+      internalID: 3234801417062539900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_6
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 425
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab18004b8dd10474483f397857052440
+      internalID: -243477399921847494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_7
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 425
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d2d68d8089c46479ff29027b3e8518
+      internalID: 7832902031379170612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 425
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8ca3c3a7d29c34c8d450a15f724bb0
+      internalID: 4112952178564611212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 425
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e08d74547f5434696d5cc6cb172c13
+      internalID: -4944488680973726274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_10
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 425
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2575fecb894f7284aabed0ce79fc7589
+      internalID: -7756068600901449900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 425
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac0e9233143fb04ab9812120fba691f
+      internalID: -8466512836672155911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 371
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1496e42155befd3458788f46a4bcce51
+      internalID: -626460603118033295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 371
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad26d66708f36c74791e7ee147afee76
+      internalID: 2005463898225061405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 371
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69caf78eb9f705e44a5a997b506ed5d6
+      internalID: 3912269377024789787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_15
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 371
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428d5cd9281b62946a1622457e695b03
+      internalID: -1039497299507069861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_16
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 371
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc22d4541732924999ef63168f1aa66
+      internalID: -2334670190870948039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_17
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 371
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c16229b3aef0304ea03136c57027ecf
+      internalID: -8075406950430086660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 371
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87e3c2f317a4d6489e5a93df0d4e44c
+      internalID: 1143585444754505116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 371
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f0a45143de8814ab4938c7ce22b0c7
+      internalID: -732191849957614060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_20
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 371
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6046a3deeebd84d438f0bb5f92558585
+      internalID: -8013107655785102006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 313
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b94dc599a56cf4a94aa6ae0de2193f
+      internalID: -1051963883045027326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 312
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93daf79ae5526454ebd8aecaf3c60193
+      internalID: 5711252810175485315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 312
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38466261e05e8c94eb3dad4830c0d443
+      internalID: 8481839672742927924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_24
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 312
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2563ea8432a1544448eafd93e7e5367f
+      internalID: -4683369458967547173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_25
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 312
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ffba5c41ffd87469b545298feabaaf
+      internalID: -1277632927263294909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_26
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 312
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5e71a590910834f8b626a69c5b3b6a
+      internalID: -5423312231257893929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_27
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 313
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9d52a35826b8e49a9974eb0ab16bb0
+      internalID: 6587779859486219564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_28
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 312
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b06d6933f36aa4d8e7e84132b1a742
+      internalID: -7423408076756579541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_29
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 254
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dceffe15e1ef54e9f36be3723e90bc
+      internalID: 7703706612128305581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 254
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb40bc44ff5db94c944fc48d3fd961d
+      internalID: 7010047309840637273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_31
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 254
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb3febb6bf9a15489dfc53b179d04f4
+      internalID: -5423924350946335638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_32
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 254
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a7ff9bf302fc74d99bee336df923ab
+      internalID: 8846781452950392628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_33
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 254
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77497080f5609284f908daca1874ac64
+      internalID: -8017047241385449126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_34
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 254
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682bc1817620a8c4fbe1e6ddf35b990d
+      internalID: -3231104096519806535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_35
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 254
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1241c79cfb3bc024aa801cdb48d4c135
+      internalID: 8376596237740864914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_36
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 254
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b86c6900dd495d448f208f3d2514eb9
+      internalID: 7305328176387488963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_37
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 184
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a675946270285e44831b87deabb4975
+      internalID: -155732265942305961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 184
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d150cda236c344e92db9826b61e62b
+      internalID: 1519970021263283811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_39
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 184
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106ddadb6ddabd14b8fef1d4ddacf371
+      internalID: -6199343692025547423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_40
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 184
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678144522136a6c4f9d0f57178a6f2cf
+      internalID: -7065419296299919959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_41
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 184
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3396ae94956ee74693b6efe4f0d826b
+      internalID: 1687172472041940240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_42
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 184
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db038d605e688b94caeef120927dac38
+      internalID: 8621646572772076768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_43
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 184
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c76ed90d5b46c4bbf9acb6ad336405
+      internalID: 5469981756823429081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_44
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 120
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f23327cddf9ee439e1196c1f5a646a
+      internalID: -5000901753827059733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_45
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 120
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f622f29374e1a4449953efb75ee00dd
+      internalID: -4089154267430716496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_46
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 120
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e99bf782a639c4ea23df14dbfe650b
+      internalID: -2293999812152758554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_47
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 120
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d1cd4e3cd83b74da142194a6076c4e
+      internalID: 7084782934050403063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_48
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 120
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb15ccb5eb59ba4688aa582caf25f24
+      internalID: -294029260632047021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_49
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 120
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88be36c76975d4744966d22fa198d28a
+      internalID: -4105703007112830585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_50
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 50
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158211c76d00c3e44a83edf5e04f0293
+      internalID: 8131245263106551968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_51
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 50
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fd36c5ae78d28439f9f3c08921e378
+      internalID: 5130330399898244468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_52
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 50
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afb2a51a1d5efc43afacf6b5972579e
+      internalID: 5809912739233066084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_53
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 50
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca963a4eec063f547a4b301d203f56e7
+      internalID: -4596396045515050824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_54
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 50
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bcf79fcf53e4244a745ffc58f23d96
+      internalID: 7257920177543419331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flakes_55
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 50
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d60f30ac9ba574194e275b5d016e8a
+      internalID: -6413802889983458152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
