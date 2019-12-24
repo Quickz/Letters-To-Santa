@@ -32,16 +32,12 @@ public sealed class WinScreen : BaseScreen
 
     private void Start()
     {
-        exitButton.onClick.AddListener(ReturnToMainMenu);
+        exitButton.onClick.AddListener(ReturnToMainMenuWithFade);
 
     }
 
-    private void Update()
+    public void DoneGame()
     {
-
-    }
-
-    public void DoneGame() {
         Open();
 
         //fall back
@@ -54,6 +50,11 @@ public sealed class WinScreen : BaseScreen
         Debug.Log(points);
         textmesh.text = "" + points;
         CoinManager.Coins = (int)points;
+    }
+
+    private void ReturnToMainMenuWithFade()
+    {
+        SceneTransition.Instance.RunWithFade(ReturnToMainMenu);
     }
 
     private void ReturnToMainMenu()

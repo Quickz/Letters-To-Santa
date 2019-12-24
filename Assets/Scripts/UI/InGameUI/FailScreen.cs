@@ -28,7 +28,7 @@ public class FailScreen : BaseScreen
 
     private void Start()
     {
-        exitButton.onClick.AddListener(ReturnToMainMenu);
+        exitButton.onClick.AddListener(ReturnToMainMenuWithFade);
 
     }
 
@@ -39,6 +39,11 @@ public class FailScreen : BaseScreen
         {
             Open();
         }
+    }
+
+    private void ReturnToMainMenuWithFade()
+    {
+        SceneTransition.Instance.RunWithFade(ReturnToMainMenu);
     }
 
     private void ReturnToMainMenu()
