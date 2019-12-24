@@ -17,7 +17,9 @@ public class SaveManager : MonoBehaviour
             return;
         }
 
+        Instance = this;
         DontDestroyOnLoad(gameObject);
+
         SaveData.availableCostumes = availableCostumes;
         SaveSystem.Load();
     }
