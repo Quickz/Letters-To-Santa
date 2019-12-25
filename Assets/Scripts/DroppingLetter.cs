@@ -7,6 +7,31 @@ public class DroppingLetter : MonoBehaviour
     public int randomTag;
     public Points pts;
     BagsMove bags;
+    [SerializeField]
+    private bool IsHeld;
+
+    public void SetHeld()
+    {
+        IsHeld = true;
+        gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+    }
+
+    public void SetDrop()
+    {
+        IsHeld = false;
+        gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
+    }
+
+    public bool GetHeld()
+    {
+        return IsHeld;
+    }
+
+    public void DestroyLetter()
+    {
+        Destroy(gameObject);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Bin") {

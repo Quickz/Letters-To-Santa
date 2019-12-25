@@ -27941,6 +27941,7 @@ MonoBehaviour:
   - {fileID: 1818167423620063819, guid: 9bfa84eaefd8a944898d6f044eaa121b, type: 3}
   - {fileID: 9079255800222574885, guid: 6d0c9651565f62d4395454e7687e7a56, type: 3}
   - {fileID: 2726623351706529226, guid: 2310acd77760c734285cdbffac15efbf, type: 3}
+  Pos: {x: 0, y: 0, z: 0}
 --- !u!1 &371276052
 GameObject:
   m_ObjectHideFlags: 0
@@ -32192,7 +32193,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!156049354 &774745289
 Grid:
   m_ObjectHideFlags: 0
@@ -33710,7 +33711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!156049354 &1119308503
 Grid:
   m_ObjectHideFlags: 0
@@ -60157,6 +60158,7 @@ MonoBehaviour:
   - {fileID: 9079255800222574885, guid: 6d0c9651565f62d4395454e7687e7a56, type: 3}
   - {fileID: 1818167423620063819, guid: 9bfa84eaefd8a944898d6f044eaa121b, type: 3}
   - {fileID: 2726623351706529226, guid: 2310acd77760c734285cdbffac15efbf, type: 3}
+  Pos: {x: 0, y: 0, z: 0}
 --- !u!1 &2005018076
 GameObject:
   m_ObjectHideFlags: 0

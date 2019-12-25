@@ -31,10 +31,15 @@ public class Grab : MonoBehaviour
             if (letter != null)
             {
                 letter.transform.position = holdingPoint.position;
+                letter.SetHeld();
             }
         }
         else
         {
+            if (letter != null)
+            {
+                letter.SetDrop();
+            }  
             letter = null;
         }
     }
