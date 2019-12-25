@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1818167423620063863}
   - component: {fileID: 1818167423620063860}
   - component: {fileID: 1818167423620063861}
-  - component: {fileID: 1818167423620063818}
+  - component: {fileID: 3698938953134498671}
   m_Layer: 0
   m_Name: RedLetter
   m_TagString: Item3
@@ -27,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818167423620063819}
-  m_LocalRotation: {x: -0, y: -0, z: -0.70013094, w: 0.7140145}
-  m_LocalPosition: {x: 7.8, y: 0.17, z: -0.6}
-  m_LocalScale: {x: 3.7504, y: 3.7504, z: 3.7504}
+  m_LocalRotation: {x: -0, y: -0, z: 0.019185001, w: 0.99981594}
+  m_LocalPosition: {x: 36.6, y: 2.6299999, z: -0.5}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -88.87501}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 2.1990001}
 --- !u!212 &1818167423620063863
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -119,8 +119,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   randomTag: 0
   pts: {fileID: 1541985002036766171, guid: db22c0a523b049941b24e5cc82cc75f5, type: 3}
---- !u!61 &1818167423620063818
-BoxCollider2D:
+  IsHeld: 0
+--- !u!58 &3698938953134498671
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -132,16 +133,6 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.009526767}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
-    newSize: {x: 0.32, y: 0.32}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.1734597}
-  m_EdgeRadius: 0
+  m_Radius: 0.13

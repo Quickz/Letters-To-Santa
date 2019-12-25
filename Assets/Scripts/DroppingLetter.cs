@@ -13,13 +13,13 @@ public class DroppingLetter : MonoBehaviour
     public void SetHeld()
     {
         IsHeld = true;
-        gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+        gameObject.GetComponent<CircleCollider2D>().isTrigger = true;
     }
 
     public void SetDrop()
     {
         IsHeld = false;
-        gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
+        gameObject.GetComponent<CircleCollider2D>().isTrigger = false;
     }
 
     public bool GetHeld()
