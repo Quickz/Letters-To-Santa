@@ -20,16 +20,18 @@ public class Bags : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == tagg) {
             pts.Total += 10;
-            Debug.Log(points);
+            collision.GetComponent<DroppingLetter>().DestroyLetter();
+            //Debug.Log(points);
            
         } else if (collision.gameObject.tag != "Player")
         {
             pts.Total -= 5;
-            Debug.Log(points);
+            collision.GetComponent<DroppingLetter>().DestroyLetter();
+            //Debug.Log(points);
         }
     }
 
