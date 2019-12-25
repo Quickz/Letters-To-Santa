@@ -9,6 +9,8 @@ public class DroppingLetter : MonoBehaviour
     BagsMove bags;
     [SerializeField]
     private bool IsHeld;
+    [SerializeField]
+    GameObject SpawnerObj;
 
     public void SetHeld()
     {
@@ -30,6 +32,7 @@ public class DroppingLetter : MonoBehaviour
     public void DestroyLetter()
     {
         Destroy(gameObject);
+        SpawnerObj.GetComponent<Spawner>().DecLetters();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -38,6 +41,7 @@ public class DroppingLetter : MonoBehaviour
             bags = collision.gameObject.GetComponent<BagsMove>();
             bags.AmountOfBags += 1;
             Destroy(gameObject);
+            SpawnerObj.GetComponent<Spawner>().DecLetters();
         }
     }
 
@@ -47,6 +51,7 @@ public class DroppingLetter : MonoBehaviour
         {
             pts.Total -= 1;
             Destroy(gameObject);
+            SpawnerObj.GetComponent<Spawner>().DecLetters();
         }
     }
 }
