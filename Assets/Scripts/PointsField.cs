@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PointsField : MonoBehaviour
 {
-    public Text TextField => textField;
+    public TMP_Text TextField => textField;
 
     [SerializeField]
-    private Text textField = null;
+    private TMP_Text textField = null;
 }

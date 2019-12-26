@@ -2,23 +2,43 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using System;
 
 public class Timer : MonoBehaviour
 {
-    public float TimeLeft;
-    public WinScreen ws;
-    public FailScreen fs;
-    public Text tx;
-    // Update is called once per frame
-    void Update()
-    {
-        TimeLeft -= Time.deltaTime;
-        if (TimeLeft <= 0)
-        {
-            
-            ws.DoneGame();
-        }
+    public float RemainingTime => remainingTime;
 
-        tx.text = "" + (int)TimeLeft;
+    [Tooltip("Amount of time left (in seconds).")]
+    [SerializeField]
+    private float remainingTime = 60f;
+
+    [SerializeField]
+    private TMP_Text textField = null;
+
+    private void Start()
+    {
+        StartTimerAndOnCompletionExecute(WinScreen.Instance.DoneGame);
+    }
+
+    private void StartTimerAndOnCompletionExecute(Action callback)
+    {
+        StartCoroutine(Process());
+
+        IEnumerator Process()
+        {
+            while (remainingTime > 0f)
+            {
+                remainingTime -= Time.deltaTime;
+                
+                if (textField != null)
+                {
+                    textField.text = remainingTime.ToString("0");
+                }
+
+                yield return new WaitForEndOfFrame();
+            }
+            callback();
+        }
     }
 }

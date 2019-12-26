@@ -8,7 +8,7 @@ public class Points : MonoBehaviour
 {
     public int point = 0;
     public int Total = 0;
-    private Text textField;
+    private TMP_Text textField;
 
     private void Start()
     {
@@ -21,7 +21,7 @@ public class Points : MonoBehaviour
 
     private void Update()
     {
-        textField.text = "Points: " + Total;
+        textField.text = $"Points: {Total}";
         if (Total < 0)
         {
             Total = 0;
