@@ -12,11 +12,14 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TimeLeft -= Time.deltaTime;
+        
         if (TimeLeft <= 0)
         {
             
             ws.DoneGame();
+        } else
+        {
+            TimeLeft -= Time.deltaTime;
         }
 
         tx.text = "" + (int)TimeLeft;

@@ -52,7 +52,7 @@ public sealed class WinScreen : BaseScreen
         else {
             pts.point = 1;
         }
-        Debug.Log(points);
+        //Debug.Log(points);
         textmesh.text = "" + points;
         CoinManager.Coins = (int)points;
     }
