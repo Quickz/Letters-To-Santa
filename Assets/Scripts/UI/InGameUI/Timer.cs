@@ -7,14 +7,23 @@ using System;
 
 public class Timer : MonoBehaviour
 {
-    public float RemainingTime => remainingTime;
-
-    [Tooltip("Amount of time left (in seconds).")]
-    [SerializeField]
-    private float remainingTime = 60f;
+    public float RemainingTime { get; private set; }
+    public float InitialTime => initialTime;
 
     [SerializeField]
     private TMP_Text textField = null;
+
+    [SerializeField]
+    private Image progressBar = null;
+
+    [Tooltip("Amount of time left in the beginning (in seconds).")]
+    [SerializeField]
+    private float initialTime = 60f;
+
+    private void Awake()
+    {
+        RemainingTime = initialTime;
+    }
 
     private void Start()
     {
@@ -27,13 +36,14 @@ public class Timer : MonoBehaviour
 
         IEnumerator Process()
         {
-            while (remainingTime > 0f)
+            while (RemainingTime > 0f)
             {
-                remainingTime -= Time.deltaTime;
+                RemainingTime -= Time.deltaTime;
                 
                 if (textField != null)
                 {
-                    textField.text = remainingTime.ToString("0");
+                    textField.text = RemainingTime.ToString("0");
+                    progressBar.fillAmount = 1f / (initialTime / RemainingTime);
                 }
 
                 yield return new WaitForEndOfFrame();
