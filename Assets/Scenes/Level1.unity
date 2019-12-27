@@ -22489,7 +22489,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ccd5c42825096e4493087e4d778f4ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TimerStart: 2
   timer: 2
+  MaxLetters: 20
+  LetterCount: 0
   Letters:
   - {fileID: 9079255799511905012}
   - {fileID: 1818167424587715926}
@@ -22557,7 +22560,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: -20
   far clip plane: 1000
   field of view: 60
   orthographic: 1
@@ -29850,6 +29853,11 @@ PrefabInstance:
       propertyPath: m_FontData.m_FontStyle
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1979862388008249206, guid: 280f03bce7344594a8c9d0b610277516,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 1979862388500760004, guid: 280f03bce7344594a8c9d0b610277516,
         type: 3}
       propertyPath: m_LocalPosition.x
