@@ -9,9 +9,11 @@ public class Grab : MonoBehaviour
     private float radius = 1f;
     [SerializeField]
     private Transform holdingPoint = null;
+    [SerializeField]
+    private int NumHeld;
 
     private DroppingLetter letter;
-
+   
     private DroppingLetter ClosestNearbyLetter => Physics2D
         .OverlapCircleAll(holdingPoint.position, radius)
         .Select(x => x.GetComponent<DroppingLetter>())
