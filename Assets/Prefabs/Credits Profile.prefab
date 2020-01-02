@@ -171,6 +171,7 @@ GameObject:
   - component: {fileID: 1898947075578836889}
   - component: {fileID: 5312482513086979837}
   - component: {fileID: 2827138373132332145}
+  - component: {fileID: 324384333978329808}
   m_Layer: 5
   m_Name: Profile Button
   m_TagString: Untagged
@@ -275,7 +276,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5312482513086979837}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 324384333978329808}
+        m_MethodName: OpenURL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &324384333978329808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3625986273109052010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca7a6aa12fa3c243bb14853bc701adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://www.google.com/
 --- !u!1 &7731997174812891095
 GameObject:
   m_ObjectHideFlags: 0
